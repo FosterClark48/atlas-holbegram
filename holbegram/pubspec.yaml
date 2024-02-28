@@ -40,6 +40,7 @@ dependencies:
   cloud_firestore: ^4.15.5
   firebase_database: ^10.4.6
   firebase_core: ^2.25.4
+  image_picker: ^1.0.7
 
 dev_dependencies:
   flutter_test:
@@ -93,3 +94,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/FontsFree-Net-Billabong.ttf
